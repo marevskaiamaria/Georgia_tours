@@ -1,1 +1,1 @@
-# Georgia_tours
+# Georgia_tours is a learning project

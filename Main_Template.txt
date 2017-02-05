@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+[[$Header]]
+<body>
+[[$menu]]
+<div id="top-tours">
+	Топ-направления:
+</div>
+<div id="cities">
+<div class="rowfl">
+		<div class="img_city" style="flex-shrink: 1; width: 33%; height: 100%;"><img src="manager/templates/images/Tbilisi.jpg" width=100% height=100%>
+		
+		<div class="city_name city_color_red"><p class="city_name_text">Тбилиси<span style="font-size: 16px;"><br><br>Что посмотреть:<br>&bull; Нарикала<br>&bull; церковь Анчисхати<br>&bull; церковь Метехи<br>&bull;  кафедральные соборы Сиони <br>и Самеба</span></p></div>
+		
+		</div>
+		<div class="img_city" style="flex-shrink: 1; width: 63%; height: 100%;"><img src="manager/templates/images/Borjomi.jpg" width=100% height=100%>
+		<div class="city_name city_color_orange"><p class="city_name_text">Боржоми<span style="font-size: 16px;"><br><br>Город-курорт в Самцхе-Джавахети, регионе на юго-западе Грузии. Город знаменит своей минеральной водой Боржоми<span></p></div>
+		
+		</div>
+	</div>
+	<div class="rowfl">
+		<div class="img_city" style="flex-shrink: 1; width: 28%; height: 100%;"><img src="manager/templates/images/Bagrati.jpg" width=100% height=100%>
+		<div class="city_name city_color_orange"><p class="city_name_text">Кутаиси<span style="font-size: 16px;"><br><br>Памятники ЮНЕСКО:
+<br>&bull; Комплекс древнего города с Храмом Баграта
+<br>&bull; Гелатский монастырский комплекс
+<br>А также
+<br>&bull; Монастырский комплекс Моцамета
+<br>&bull; Гегутский комплекс — летняя резиденция царей X—XI в.
+</span></p></div>
+ 		
+		</div>
+		<div class="img_city" style="flex-shrink: 1; width: 35%; height: 100%;"><img src="manager/templates/images/Kakheti.jpg" width=100% height=100%>
+		<div class="city_name city_color_green"><p class="city_name_text">Кахетия<span style="font-size: 16px;"><br><br>Что посмотреть:<br>
+&bull; Сигнахи
+<br>&bull; музей им. А. Чавчавадзе</span></p></div>
+		<div class="info"></div>
+		</div>
+		<div class="img_city" style="flex-shrink: 1; width: 27%; height: 100%;"><img src="manager/templates/images/Mtskheta.jpg" width=100% height=100%>
+		<div class="city_name city_color_red"><p class="city_name_text">Мцхета<span style="font-size: 16px;"><br><br>Памятники ЮНЕСКО:<br>&bull;  монастырь Самтавро<br>&bull; кафедральный собор Светицховели</span></p></div>
+		
+		</div>
+	</div>
+	<div class="rowfl">
+		<div class="img_city" style="flex-shrink: 1; width: 48%; height: 100%;"><img src="manager/templates/images/Svaneti.jpg" width=100% height=100%>
+		<div class="city_name city_color_red"><p class="city_name_text">Сванетия<span style="font-size: 16px;"><br><br>Верхняя Сванетия включена в список объектов Всемирного наследия ЮНЕСКО</span></p></div>
+		
+		</div>
+		<div class="img_city" style="flex-shrink: 1; width: 48%; height: 100%;"><img src="manager/templates/images/Batumi.jpg" width=100% height=100%>
+		<div class="city_name city_color_green"><p class="city_name_text">Батуми<span style="font-size: 16px;"><br><br>Город и порт в Грузии, на побережье Чёрного моря, главный туристический центр современной Грузии</span></p></div>
+		
+		</div>
+	</div>
+</div>
+<div class="map"><img src="manager/templates/images/map.jpg" width=900></div>
+<!--<div id="footer1">
+	<div id="footer_image"><div id="footer_line"><p class="footer_text">г. Санкт-Петербург, Загородный пр., д. 99</p></div></div>-->
+[[$footer]]
+
+</body>
+</html>

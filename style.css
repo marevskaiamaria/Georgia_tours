@@ -1,0 +1,242 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Arial, sans-serif;
+        color: #fff;
+}
+
+#header{
+	background-color: #ef3030;
+	position: relative;
+	top: 0%;
+	width: 100%;
+	min-width: 900px;
+	height: 80px;
+}
+
+#company{
+	width: 80%;
+	height: 100%;
+	min-width: 700px;
+	position: relative;
+	top: 0%;
+	margin: auto;
+}
+
+#name{
+        width: 500px;
+	height: 100%;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+}
+
+
+#company_name{
+	font-size: 55px;
+	padding: 70px 0px;
+        font-weight: 700;
+}
+
+#adress{
+        width: 180px;
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.adr{
+	position: relative;
+	height: 25%;
+	right: 0px;
+	top: 0%;
+padding-top: 5px;
+text-align: right;
+font-size: 15px;
+}
+
+#header_pic{
+	background-image: url(images/Georgia_header.jpg);
+	background-size: cover;
+	width: 100%;
+	min-width: 900px;
+	height: 500px;
+	position: relative;
+	margin: auto;
+}
+
+#tours_price{
+	width: 80%;
+	height: 80px;
+	margin: auto;
+	position: relative;
+    top: 40%;	
+}
+
+#tours{
+	font-size: 30px;
+}
+
+#price{
+	font-size: 20px;
+}
+
+#menu{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 320px;
+	left: 0px;
+}
+
+#menu_points{
+	width: 900px;
+	height: 100%;
+	position: relative;
+	margin: auto;
+        text-align: center;
+}
+
+.menu_text{
+	text-align: center;
+	width: 20%;
+	position: absolute;
+	top: 40px;
+	font-size: 20px;
+}
+
+.menu_text_here{
+        border-bottom: 2px solid white;
+        padding: 10px 20px 5px 20px;
+}
+
+a{
+        color: #fff;
+        text-decoration: none;
+}
+
+li{
+        list-style: none;
+	font-size: 20px;
+        display: inline;
+        margin: 30px;
+}
+
+ul{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        top: 60px;
+}
+
+#top-tours{
+	width: 900px;
+	height: 40px;
+	margin: auto;
+	padding: 10px;
+	font-size: 20px;
+	color: #000;
+}
+
+#cities{
+	position: relative;
+	width: 900px;
+	height: 1100px;
+	
+	margin: auto;
+display: flex; flex-direction: column; justify-content: space-between;
+}
+.city_name{
+	width: 100%;
+	height: 16%;
+	position: relative;
+	top: -22%;
+	left: 0px;
+        -webkit-transition: all 1s ease-out 0.1s;
+       -moz-transition: all 1s ease-out 0.1s;
+       -o-transition: all 1s ease-out 0.1s;
+       transition: all 1s ease-out 0.1s;
+}
+
+.img_city:hover .city_name{
+       top: -107%;
+       height: 101%;
+}
+
+.city_color_red{
+	background-color: #f04040;
+}
+
+.city_color_orange{
+	background-color: #f19041;
+}
+
+.city_color_green{
+	background-color: #37c437;
+}
+
+.city_name_text{
+	font-size: 20px;
+	padding: 5px 0px 0px 7px;
+}
+
+.map{
+	width: 900px;
+	height: auto;
+	margin: auto;
+        z-index: 500;
+}
+
+.rowfl{
+	position: relative;
+	height: 30%; 
+	width: 100%;
+display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
+}
+
+#footer1{
+	background-color: #555;
+	width: 100%;
+	min-width: 900px;
+	height: auto;
+	position: relative;
+	bottom: 0px;
+	margin: auto;
+}
+
+#footer_image{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background-size: cover;
+	background-image: url(images/footer.jpg);	
+}
+
+#footer_line{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer_text{
+        width: 900px;
+	text-align: left;
+	font-size: 15px;
+        margin: auto;
+	padding: 5px;
+}
+
+#container{
+        position: relative;
+        color: #111;
+        padding: 20px 5px;
+        margin: auto;
+        width: 900px;
+        height: auto;
+        /*background-color: #fff;*/
+}
